@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/onbordingtaskdemo/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsonbordingsqlserver.data_B4F4061849",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/onbordingsqlserver/databases/SalesDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:onbordingsqlserver.database.windows.net"
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/onbordingtaskdemo/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsonbordingsqlserver_5A4F0B16A6",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/onbordingsqlserver/databases/SalesDB",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:onbordingsqlserver"
+    }
+  }
+}

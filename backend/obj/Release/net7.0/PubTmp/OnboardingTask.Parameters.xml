@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="onbordingtaskdemo" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\Industry\ Connect\\Repo\\InternshipTask1\\OnboardingTask\\OnboardingTask\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="OnboardingTask.Models.SalesDbContext" description="" value="Data Source=onbordingsqlserver.database.windows.net,1433;Initial Catalog=SalesDB;User ID=erandi;Password=ChamikaRamawickrama@83" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^E:\\Industry\ Connect\\Repo\\InternshipTask1\\OnboardingTask\\OnboardingTask\\obj\\Release\\net7\.0\\PubTmp\\EFSQLScripts\\OnboardingTask\.Models\.SalesDbContext\.sql$" />
+  </parameter>
+</parameters>
